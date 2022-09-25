@@ -6,6 +6,8 @@ import 'swiper/css/autoplay';
 import { AppProps } from 'next/dist/shared/lib/router/router';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
+import Script from 'next/script'
+
 import { ColorModeScript } from 'nextjs-color-mode';
 import React, { PropsWithChildren } from 'react';
 import { TinaEditProvider } from 'tinacms/dist/edit-state';
@@ -40,14 +42,14 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         {/* <link rel="alternate" type="application/rss+xml" href={EnvVars.URL + 'rss'} title="RSS 2.0" /> */}
-        {/* <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-          ga('create', 'UA-117119829-1', 'auto');
+          ga('create', 'UA-107382945-2', 'auto');
           ga('send', 'pageview');`,
           }}
-        /> */}
-        {/* <script async src="https://www.google-analytics.com/analytics.js"></script> */}
+        />
+        <Script async src="https://www.google-analytics.com/analytics.js"></Script>
       </Head>
       <ColorModeScript />
       <GlobalStyle />
