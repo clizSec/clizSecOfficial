@@ -10,6 +10,7 @@ const PARTNER_LOGOS = [
   'dod.svg',
   'hackerone.svg',
   'instacart.svg',
+  'flexispy.svg',
   'logoipsum-logo-1.svg',
   'logoipsum-logo-2.svg',
   'logoipsum-logo-3.svg',
