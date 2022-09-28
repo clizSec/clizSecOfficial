@@ -7,10 +7,12 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'dod.svg',
-  'hackerone.svg',
-  'instacart.svg',
-  'flexispy.svg'
+  'dod.png',
+  'iec.png',
+  'flexispy.png',
+  'instacart.png',
+  'schneiderelectric.png',
+  'nextcloud.png'
 ];
 
 export default function Partners() {
@@ -33,7 +35,7 @@ export default function Partners() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
+            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={140} height={40} />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -42,7 +44,7 @@ export default function Partners() {
 }
 
 function normalizePartnerLogoName(logo: string) {
-  return logo.replace('.svg', '');
+  return logo.replace('.png', '');
 }
 
 const Title = styled.h3`
