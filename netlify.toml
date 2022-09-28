@@ -1,0 +1,11 @@
+#[[plugins]]
+#package = "@netlify/plugin-sitemap"
+
+#[plugins.inputs]
+#buildDir = "public"
+#prettyURLs = true
+#trailingSlash = true
+#exclude = [
+#    '/server/',
+#    '/admin/'
+#]
