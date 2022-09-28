@@ -7,6 +7,7 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
+  'dod.svg',
   'hackerone.svg',
   'logoipsum-logo-1.svg',
   'logoipsum-logo-2.svg',
