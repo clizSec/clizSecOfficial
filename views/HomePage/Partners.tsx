@@ -10,14 +10,7 @@ const PARTNER_LOGOS = [
   'dod.svg',
   'hackerone.svg',
   'instacart.svg',
-  'flexispy.svg',
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
-  'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+  'flexispy.svg'
 ];
 
 export default function Partners() {
