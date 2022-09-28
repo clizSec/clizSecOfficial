@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           ga('send', 'pageview');`,
           }}
         /> }
-        { <script async src="https://www.google-analytics.com/analytics.js"></script> }
+        { <Script async src="https://www.google-analytics.com/analytics.js"></Script> }
       </Head>
       <ColorModeScript />
       <GlobalStyle />
