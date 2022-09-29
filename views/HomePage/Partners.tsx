@@ -9,6 +9,7 @@ import { media } from 'utils/media';
 const PARTNER_LOGOS = [
   'dod.png',
   'iec.png',
+  'hackerone.png',
   'flexispy.png',
   'instacart.png',
   'schneiderelectric.png',

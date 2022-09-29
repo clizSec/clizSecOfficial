@@ -10,29 +10,29 @@ import { media } from 'utils/media';
 
 const TESTIMONIALS = [
   {
-    companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    companyLogoUrl: '/testimonials/dod.png',
+    content: 'Thank you for your time and effort to improve the security of the DoD information network. Thanks again for supporting the DoD Vulnerability Disclosure Program.',
     author: {
-      name: 'Clyde Edwards',
-      title: 'Very Serious Man',
+      name: 'United States - Department of Defense',
+      title: 'Security team',
       avatarUrl: '/testimonials/author-photo-1.jpeg',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    companyLogoUrl: '/testimonials/instacart.png',
+    content: `Hello @clizsec, Instacart rewarded you with a bounty. Thanks for the report!`,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
+      name: 'Instacart',
+      title: 'Security team',
       avatarUrl: '/testimonials/author-photo-2.jpeg',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    companyLogoUrl: '/testimonials/hackerone.png',
+    content: `From HackerOne to be announced as our top security researcher that found decent amount of security holes in  one of our customer facing products.`,
     author: {
-      name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
+      name: 'HackerOne',
+      title: 'Security team',
       avatarUrl: '/testimonials/author-photo-3.jpeg',
     },
   },
