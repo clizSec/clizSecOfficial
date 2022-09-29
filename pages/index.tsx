@@ -27,24 +27,26 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Project Task Management" overTitle="management">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Project management is the art of keeping a team coordinated and on-task in pursuit of a specific goal.{' '}
+              Project managers need a unique skill set, including both managerial experience and hands-on industry knowledge.{' '}
+              Time management and interpersonal skills are essential to this field, too.{' '}
+              A project management resume should emphasize those abilities.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Incident Management Escalation" overTitle="escalation" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Escalation is not just about assigning an issue to another internal team or to a relevant third-party provider.{' '}
+              It is about <strong>kickstarting</strong> the well-oiled machine that coordinates cross-team and cross-functional efforts in the most effective way possible.{' '}
+              In many organizations, the escalation process leaves much to be desired, resulting in wasted time, resources, and unnecessary delays.{' '}
+              Here are just a few common pitfalls:
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li><strong>Ad hoc decision making that results in delays</strong>: Leaving it up to the judgment call of the first responders to assign the issue to the proper department. This ad hoc approach often results in significant time-waste before the right people are notified.</li>
+              <li><strong>Deficient multi-party orchestration</strong>: Sometimes the incident requires multiple parties to be involved, often in a very specific order. Orchestrating multiple parties is difficult, especially in high-pressure environments, as each party needs to be notified in alerts separately and updated accordingly.</li>
+              <li><strong>Over-escalating</strong>: Wasting top-level engineers time with non-critical issues is a common problem. First responders end up assigning the incident to a higher level than necessary not because it is the correct thing to do, but because they don’t know who the correct person is to escalate to.</li>
+              <li><strong>Notification is not action</strong>: Notification does not automatically translate into action; this is why there is a pressing need for an effective system that brings all parties on board quickly. The point isn’t just to notify, but to ensure that necessary actions are aligned.</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>

@@ -13,11 +13,10 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>Get in contact</OverTitle>
+          <SectionTitle>Recruiting? Short project? Help needed?</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Shoot me an email and we&apos;ll be in touch.
           </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
