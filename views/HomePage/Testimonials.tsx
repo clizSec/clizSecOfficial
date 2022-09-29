@@ -50,7 +50,7 @@ export default function Testimonials() {
                 <NextImage
                   src={singleTestimonial.companyLogoUrl}
                   alt={`${singleTestimonial.author.name}'s company logo`}
-                  width={200}
+                  width={140}
                   height={40}
                 />
                 <Content>“{singleTestimonial.content}”</Content>
